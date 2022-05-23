@@ -1,5 +1,5 @@
-let dado1 = [Math.floor(Math.random()*5)+1]
-let dado2 = [Math.floor(Math.random()*5)+1]
+let dado1 = Math.floor(Math.random()*5)+1
+let dado2 = Math.floor(Math.random()*5)+1
 
 if (dado1 = dado2) {
     alert("Pareggio")

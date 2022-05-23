@@ -5,11 +5,16 @@ let emailList = [
   "LeonardoDaVinci@gmail.com",
   "GiuseppeVerdi@gmail.com",
 ];
+const notValid = []
 
 for (let i = 0; i < emailList.length; i++) {
   if (emailUtente === emailList[i]) {
     alert("E-Mail valida.");
   } else if (emailUtente != emailList[i]) { 
-    alert("E-Mail non valida, riprova.");
+    notValid.push(emailUtente)
   }
+}
+
+if (emailUtente === notValid[3]) {
+  alert("E-Mail non valida, riprova.");
 }
