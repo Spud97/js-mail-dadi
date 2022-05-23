@@ -9,7 +9,7 @@ let emailList = [
 for (let i = 0; i < emailList.length; i++) {
   if (emailUtente === emailList[i]) {
     alert("E-Mail valida.");
-  } else {
+  } else if (emailUtente != emailList[i]) { 
     alert("E-Mail non valida, riprova.");
   }
 }
